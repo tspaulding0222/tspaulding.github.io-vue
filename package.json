@@ -31,7 +31,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development ./node_modules/.bin/webpack-dev-server --watch --hot --inline --port 8086 --output-public-path=/build/",
     "dev": "cross-env NODE_ENV=development ./node_modules/.bin/webpack --config webpack.config.js",
-    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.js"
+    "build": "cross-env NODE_ENV=production ./node_modules/.bin/webpack --config webpack.config.js",
+    "_comment": "inline - hot module replacement or not needing to refresh page | hot - enable hot module replacement | watch - watch/look for file changes"
   },
   "repository": {
     "type": "git",
