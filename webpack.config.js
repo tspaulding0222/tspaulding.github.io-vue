@@ -1,3 +1,57 @@
+
+// npm
+// Pacakage manager for JavaScript
+// Nuget for front-end
+// Come with Node.js
+// What about Yarn?
+    // Is it really faster after npm 5 update??
+    // NPM also has a lock file
+    // Workspaces and Offline Install are the big features that NPM does not have
+    // Yarn specifics (I'm light in knowledge)
+
+//------- Npm init -------//
+
+// webpack
+    // module bundler
+    // not really a task runner - but can be one using webpack plugins
+    // gulp -> task runner
+    // webpack -> module bundler
+    // JavaScript Modules
+    // IIFE - invoke function immediately (don't pollute global object, isloate variable declarations)
+        //  (function() {
+        //      console.log();
+        //  }())
+    // Babel/User Modern EcamScript Versions
+        // ecmascript - standardized JavaScript
+        // old browsers don't always use newest ecmascript
+
+//------- npm install webpack webpack-cli --save-dev -------//
+
+// what is babel
+    // Javascript compiler
+    // Toolchain to convert newer ecmascript to es5
+        //      [1, 2, 3].map((n) => n + 1);
+        //              to
+        //      [1, 2, 3].map(function(n) {
+        //          return n + 1;
+        //      });
+
+//------- npm install -D babel-loader @babel/core @babel/preset-env webpack -------//
+
+// postcss, what is postcss
+    // Transform CSS with JS (Use plugins)
+        // Autoprefixing
+        // USE newer standards of CSS not yet supported by browsers
+        // compile sass, scss, less, stylus
+        // stylelint - force styling conventions and prevent errors
+        // Can I Use Integration
+    // I don't expect any of you to dive much into PostCSS
+    // This could be a lunch and learn all by itself
+    // Transform CSS with JS
+
+//------- npm install -D postcss-loader -------//
+
+
 // provides utilities for working with file and directory paths
 var path = require("path");
 // Module bundler, bundle js, css, scss for useage in browser
